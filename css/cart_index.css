@@ -254,6 +254,9 @@ header{
 .cart-tabel{
     width: 100%;
 }
+.goods-item{
+    border-bottom: 1px solid #C3C3C3;
+}
 table{
     border-collapse: collapse;
     border-spacing: 0;
@@ -345,6 +348,62 @@ td .td-infos{
     font-size: 13px;
 }
 
+
+
+/* 结算 */
+.cart-foot{
+    /* position: fixed; */
+    height: 70px;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1280px;
+    border-top: 1px solid #5d5d5d;
+    bottom: 0;
+    left: 0;
+    background: #292929;
+    background: rgba(41, 41, 41, 0.9);
+    color: #fff;
+}
+.w-1280{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sum-infos{
+    width: 1000px;
+    margin-right: 20px;
+    margin-top: 15px;
+    line-height: 40px;
+}
+.sum-oper>label{
+    margin-right: 15px;
+}
+.sum-total>span{
+    display: block;
+    line-height: 14px;
+}
+.sum-total>.price{
+    font-size: 18px;
+    line-height: 30px;
+}
+.sum-to-set{
+    height: 40px;
+    padding: 0 30px;
+    border-left: 1px solid #999;
+    margin-top: 15px;
+}
+.sum-to-set>a{
+    display: block;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background: #ed4025;
+    line-height: 40px;
+    font-size: 15px;
+}
+.cart-foot a{
+    color: #fff;
+}
 
 
 
