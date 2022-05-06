@@ -42,7 +42,7 @@
         <!-- logo -->
         <div class="logo-header fl" style="margin-left: 126px;">
             <div class="logo-inner">
-                <a href="#none">
+                <a href="./home_index.html">
                     <img src="https://img.fishfay.com/theme/images/logo/logo-anta-r-02.svg" alt="">
                 </a>
             </div>
@@ -51,35 +51,36 @@
         <!-- 文字 -->
         <ul class="nav-list fr">
             <li class="nav-item">
-                <a href="#none">冬奥国旗款</a>
+                <a href="./list_index.html">冬奥国旗款</a>
             </li>
             <li class="nav-item">
-                <a href="#none">男子</a>
+                <a href="./list_index.html">男子</a>
             </li>
             <li class="nav-item">
-                <a href="#none">女子</a>
+                <a href="./list_index.html">女子</a>
             </li>
             <li class="nav-item">
-                <a href="#none">儿童</a>
+                <a href="./list_index.html">儿童</a>
             </li>
             <li class="nav-item">
-                <a href="#none">安踏儿童</a>
+                <a href="./list_index.html">安踏儿童</a>
             </li>
             <li class="nav-item">
-                <a href="#none">品牌文化</a>
+                <a href="./list_index.html">品牌文化</a>
             </li>
             <li class="nav-item">
-                <a href="#none">观赏视频</a>
+                <a href="./list_index.html">观赏视频</a>
             </li>
             <li class="nav-item">
-                <a href="#none">联系我们</a>
+                <a href="./list_index.html">联系我们</a>
             </li>
             <li class="nav-item last">
-                <div class="nav-sear">
-                    <a href="#none" class="nav-btn"></a>
-                    <input type="text" placeholder="搜索" autocomplete="off" class="nav-input">
-                </div>
+                
             </li>
+            <div class="nav-sear">
+                <a href="#none" class="nav-btn"></a>
+                <input type="text" placeholder="搜索" autocomplete="off" class="nav-input">
+            </div>
         </ul>
     </div>
 </header>
@@ -90,18 +91,18 @@
     <div class="page-cont">
         <div class="cart-main">
             <h3 class="cart-title">
-                <span>我的购物车</span>
-                <i class="total-num">共  1 件</i>
+                <!-- <span>我的购物车</span>
+                <i class="total-num">共  1 件</i> -->
             </h3>
             <div class="cart-top">
-                <label for="" class="checkbox-label checkbox-all">
+                <label for="" class="checkbox-label checkbox-all-t">
                     <input type="checkbox" class="checkbox-input">
-                    <i></i>
+                    <!-- <i></i> -->
                     <span>全选</span>
                 </label>
             </div>
-            <table class="cart-table">
-                <tr class="goods-item">
+            <table class="cart-table carts-tab">
+                <!-- <tr class="goods-item">
                     <td class="td-check">
                         <label for="" class="checkbox-label">
                             <input type="checkbox" class="checkbox-input">
@@ -138,7 +139,7 @@
                             </p>
                         </div>
                     </td>
-                </tr>
+                </tr> -->
             </table>
         </div>
     </div>
@@ -150,15 +151,15 @@
     <div class="sum-main w-1280">
         <div class="sum-infos fl">
             <div class="sum-oper fl">
-                <label for="" class="checkbox-label checkbox-all">
+                <label for="" class="checkbox-label checkbox-all-b">
                     <input type="checkbox" class="checkbox-input">
-                    <i></i>
+                    <!-- <i></i> -->
                     <span>全选商品</span>
                 </label>
             </div>
             <div class="sum-total fr">
-                <span>总结</span>
-                <span class="price">￥0.00</span>
+                <span>总计:0件</span>
+                <span class="price">￥0</span>
             </div>
         </div>
         <div class="sum-to-set fl">
@@ -225,7 +226,10 @@
     <a href="javascript:;" class="coverkefu"></a>
 </div>
 
-
+<script src="../axios.js"></script>
+<script src="../js/cart.js"></script>
+<script src="../lib/jquery-2.2.4.js"></script>
+<script src="../lib/layer/layer.js"></script>
 
     
 </body>

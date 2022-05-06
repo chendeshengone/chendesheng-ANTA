@@ -176,6 +176,7 @@ input,select,textarea,button{
     font-weight: 600;
     position: relative;
     display: inline-block;
+    height: 95px;
 }
 .lisNav:last-child{
     margin-right: 0;
@@ -240,7 +241,7 @@ input,select,textarea,button{
 }
 #goPrev {left: 0;}
 #goNext {right: 0;}
-.rot-one a {
+.rot-one>a {
     text-decoration: none;
     position: absolute;
     top: 50%;
@@ -251,9 +252,15 @@ input,select,textarea,button{
     width: 40px;
     font-size: 40px;
     vertical-align: middle;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.5);
+    color: rgba(250, 251, 252, 0.5);
+    /* background: rgba(0, 0, 0, 0.5); */
     z-index: 6;
+}
+.rot-one>#goPrev{
+    left: -40px;
+}
+.rot-one>#goNext{
+    right: -40px;
 }
 .rot-one ul li {
     height: 500px;

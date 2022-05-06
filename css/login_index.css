@@ -276,6 +276,9 @@ header{
 }
 
 .btnadpt{
+    display: block;
+    line-height: 50px;
+    text-align: center;
     width: 360px;
     height: 50px;
     background-color: #000;
@@ -328,6 +331,9 @@ fieldset{
 .n-links>a{
     padding: 0 9px;
     font-size: 14px;
+}
+.ac{
+    z-index: 999;
 }
 
 

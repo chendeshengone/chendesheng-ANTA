@@ -145,6 +145,7 @@ header{
     color: #000;
     font-size: 17px;
     font-weight: 600;
+    height: 95px;
 }
 .nav-list>.last{
     margin-right: 0;
@@ -235,13 +236,10 @@ header{
     margin: 5px 0 15px;
 }
 .checkbox-input{
-    width: 0;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    border: 0;
+    width: 15px;
+    height: 15px;
 }
-.checkbox-label i{
+/* .checkbox-label i{
     display: inline-block;
     height: 15px;
     width: 15px;
@@ -250,7 +248,7 @@ header{
     position: relative;
     top: 3px;
     margin-right: 8px;
-}
+} */
 .cart-tabel{
     width: 100%;
 }
@@ -282,8 +280,12 @@ td .td-img{
 td .td-infos{
     width: 1010px;
 }
+.cart-table>tbody>tr>.td-img{
+    /* background-color: red; */
+    padding: 0 100px;
+}
 .td-infos .fl{
-    width: 900px;
+    width: 700px;
 }
 .td-infos h5{
     font-size: 18px;
